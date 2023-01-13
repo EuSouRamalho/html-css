@@ -1,0 +1,26 @@
+Negrito e Itálico do jeito certo
+
+seguindo o raciocínio semântico
+devemos utilizar a tag <strong>e 
+não a tag <B> para destacar algum 
+enunciado. 
+
+
+Comandos de atalho
+Crtl + shift + P > 
+Wrap whith Abbreviation > TAG
+
+Formatações Adicionais em HTML
+
+Podemos ulitizar a tag MARK para a colocação
+de marca texto.
+Sugiro que use na área:
+<head> 
+	<style>
+		mark {
+			background-color: limegreen;
+		}
+</head>
+
+Como no exemplo citado a cima, usando uma folha de estilo
+iremos colocar todas as tags MARK com a cor verde limão 

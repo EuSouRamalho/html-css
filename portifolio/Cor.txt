@@ -1,0 +1,6 @@
+Colocações de cores
+
+background-color = #2B48FF
+Cores imput = #121E67
+Div = #1E32B3
+Footer = #5461B3
