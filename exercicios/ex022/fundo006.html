@@ -7,18 +7,20 @@
     <title>Teste de Fundo</title>
 </head>
 <Style>
-    body {
+    body { /*ShortHand Background: Color > image > position > repeat > -[size] > attachment.
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;*/
         height: 100vh;
-        background-color: black;
-        background-image: url(imagens/wallpaper002.jpg);
-        background-position: center center;
-        background-repeat: repeat-y;
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
         background-size: cover;
     }
 
     main {
         background-color: white;
-        width: 300px;
+        max-width: 400px;
         padding: 5px;
         margin: auto;
         border: 1px solid black;
