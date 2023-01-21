@@ -22,17 +22,19 @@ html, body{
 }
 
 header{
-    background-color: #c98a37;
+    background-color: #af680c;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
     font-size: 5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.575);
 }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 10vw;
+    
 }
 
 header > p {
@@ -59,6 +61,10 @@ section{
     font-size: 2.5vw;
 }
 
+section > p{ 
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -67,6 +73,10 @@ section.normal{
 section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 7px 7px 15px 0px rgba(0, 0, 0, 0.575);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -75,10 +85,17 @@ section.imagem > p{
     padding: 15px;
 }
 
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+}
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
 }
 
