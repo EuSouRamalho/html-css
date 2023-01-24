@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Tabela</title>
+    <style>
+
+        /*Para mesclagem vertical usamos a tag <coslspan>*/
+        /*Para mesclagem horizontal usamos a tag <rowspan>*/
+
+        table{
+            border-collapse: collapse;
+            width: 250px;
+        }
+
+        td{
+            font-weight: bold;
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <h1>Mescla de Celulas</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+           
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            <td colspan="2">K</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
