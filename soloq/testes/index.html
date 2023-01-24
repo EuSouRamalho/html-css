@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centralizando uma DIV</title>
+    <title>Centralizando DIV</title>
     <style>
-        .container{
-            height: 100vh;
+        /*Não necessariamente você precisa ter uma DIV filho para executar esta ação. Pode fazer com qualquer elemento da div.pai*/
+        .pai{ /*Parent ou Father*/
+            background-color: violet;
+            width: 500px;
+            height: 500px;
             display: flex;
-            justify-content: center;
-            flex-direction: column;
         }
-        .container p{
+
+        .filho{/*Child*/
+            background-color: rgb(151, 56, 64);
+            width: 100px;
+            height: 100px;
             margin: auto;
-            padding: 20px;
-            background-color: black;
-            color: white;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <p>elemento do container</p>
+    <div class="pai">
+        <div class="filho"></div>
     </div>
 </body>
 </html>
